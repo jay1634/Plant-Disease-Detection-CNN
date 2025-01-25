@@ -1,0 +1,278 @@
+/* General Container */
+.predictor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.predictor h2 {
+  text-align: center;
+  color: #2f6f44;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+/* File Input Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input[type="file"] {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Result Section */
+.result {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result h3 {
+  color: #2e8b57;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.result p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Text for Alerts */
+.alert_one, .alert_two {
+  font-style: italic;
+  font-weight: bold;
+  color: #ff6347; /* Tomato color */
+  margin-top: 10px;
+}
+
+/* List Styling */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Specific color for Marathi Text */
+.result ul li,
+.result p {
+  font-size: 14px;
+  color: #333;
+}
+
+.result .preventive_measures_marathi,
+.result .description_marathi {
+  color: #D32F2F; /* Red color */
+}
+
+/* Additional styling for spacing and layout */
+.result ul {
+  margin-top: 10px;
+}
+
+.result ul li {
+  font-weight: 400;
+}
+
+/* General styling for the app */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Header Styling */
+h1 {
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 2.5rem;
+  padding: 20px 0;
+  background-color: #2f6f44;
+  color: white;
+  margin: 0;
+  font-weight: 700;
+}
+
+/* Button Container Styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #2f6f44;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #1d4b31;
+  transform: scale(1.05);
+}
+
+.button-container button:focus {
+  outline: none;
+}
+
+/* Container for the Disease and Fruit Predictor Components */
+.App {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Disease and Fruit Prediction Forms */
+.predictor form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.predictor input[type="file"] {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.predictor button {
+  background-color: #2f6f44;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.predictor button:hover {
+  background-color: #1d4b31;
+  transform: scale(1.05);
+}
+
+/* Results Section */
+.result {
+  margin-top: 30px;
+}
+
+.result h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.result p {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.result ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.result li {
+  margin: 5px 0;
+}
+
+/* Specific Styling for Alerts, Measures, and Marathi Text */
+.alert_one, .alert_two {
+  font-weight: bold;
+  font-style: italic;
+  color: #e65100;
+}
+
+.preventive_measures_marathi,
+.description_marathi {
+  color: #D32F2F; /* Red color */
+}
+
+/* Styling for the disease and fruit prediction toggles */
+button:focus {
+  outline: none;
+}
+
+.captured-image, .upload-preview {
+  margin-top: 20px;
+  text-align: center; /* Center the content */
+}
+
+.captured-image img, .upload-preview img {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  max-width: 80%; /* Make the image slightly smaller */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 300px; /* Limit the height */
+  display: block; /* Ensure it's centered */
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+}
+/* Styling for image preview */
+/* Styling for image preview */
+.image-preview img {
+  display: block; /* Makes the image a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 200px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+/* Justify alignment for all paragraphs */
+.result p, .predictor p, .App p, .button-container p {
+  text-align: justify;
+  line-height: 1.6;
+}
